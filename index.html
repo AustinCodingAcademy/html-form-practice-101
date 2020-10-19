@@ -3,89 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  
+
+  <title>Information sheet</title>
 </head>
 <body>
-    <form action="results.html" method="GET" enctype="multipart/form-data">
-      <div>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" >
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" >
-    </div>
-    <div>
-      <label for="age">Age</label>
-      <input type="number" name="age" id="age" min="1" max="200" step="5">
-    </div>
-    <div>
-      <label for="date">Birthdate</label>
-      <input type="date" name="date" id="date" min="2019-06-10">
-    </div>
-    <div>
-      Favorite Food
-      <div>
-        <label for="banana">Banana</label>
-        <input type="checkbox" name="banana" id="banana">
-      </div>
-      <div>
-        <label for="apple">Apple</label>
-        <input type="checkbox" name="apple" id="apple">
-      </div>
-    </div>
-    <div>
-      Gender
-      <div>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male">
-      </div>
-      <div>
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" value="female">
-      </div>
-      <div>
-        <label for="other">Other</label>
-        <input type="radio" name="gender" id="other" value="other">
-      </div>
-    </div>
-    <div>
-      <label for="eyeColor">Eye Color</label>
-      <select name="eyeColor" id="eyeColor" multiple>
+  <form action="results.html" method="GET" enctype="multipart/form-data"></form>
+    <div class="grid-container">
+      <div class="Header"><h1>Information Form</h1></div>
+      <div class="Name"><label for="name">Name</label></div>
+      <div class="Nameinput"><input type="text" name="name" id="name" ></div>
+      <div class="email"><label for="email">Email</label></div>
+      <div class="emailinput"><input type="email" name="email" id="email" ></div>
+      <div class="age"><label for="age">Age</label></div>
+      <div class="agei"><input type="number" name="age" id="age" min="1" max="200" step="5"></div>
+      <div class="birth"><label for="date">Birthdate</label></div>
+      <div class="birthi"><input type="date" name="date" id="date" min="2019-06-10"></div>
+      <div class="H2Favoritefood"><h2>Favorite Food</h2></div>
+      <div class="bananna"><label for="banana">Banana</label></div>
+      <div class="banannai"><input type="checkbox" name="banana" id="banana"></div>
+      <div class="apple"><label for="apple">Apple</label></div>
+      <div class="applei"><input type="checkbox" name="apple" id="apple"></div>
+      <div class="H2gender"><h2>Gender</h2></div>
+      <div class="Male"><label for="male">Male</label></div>
+      <div class="malei"><input type="radio" name="gender" id="male" value="male"></div>
+      <div class="female"><label for="female">Female</label></div>
+      <div class="femalei"><input type="radio" name="gender" id="female" value="female"></div>
+      <div class="other"><label for="other">Other</label></div>
+      <div class="otheri"><input type="radio" name="gender" id="other" value="other"></div>
+      <div class="h2eyecolor"><label for="eyeColor">Eye Color</label></div>
+      <div class="eyecolori"> <select name="eyeColor" id="eyeColor" multiple>
         <option value="Green">Green</option>
         <option label="Red" value="Red"></option>
-      </select>
-    </div>
-    <div>
-      <label for="bio">Bio</label>
-      <textarea id="bio" name="bio"></textarea>
-    </div>
-    <input type="hidden" name="hidden" value="hi">
-    <div>
-      <label for="file">File</label>
-      <input id="file" type="file" name="file">
-    </div>
-    <div>
-      <label for="phone">Phone</label>
-      <input type="tel" name="phone" id="phone">
-    </div>
-    <div>
-      <label for="url">URL</label>
-      <input type="url" name="url" id="url">
-    </div>
-    <div>
-      <label for="color">Color</label>
-      <input type="color" name="color" id="color">
-    </div>
-    <div>
-      <label>
+      </select></div>
+      <div class="biography"<label for="bio">Bio</label></div>
+      <div class="biographi"><textarea id="bio" name="bio"></textarea></div>
+      
+      <div class="file"><label for="file">File</label></div>
+      <div class="filei"<input id="file" type="file" name="file"></div>
+      <div class="phone"<label for="phone">Phone</label></div>
+      <div class="phonei"><input type="tel" name="phone" id="phone"></div>
+      <div class="url"><label for="url">URL</label></div>
+      <div class="urli"><input type="url" name="url" id="url"></div>
+      <div class="color"><label for="color">Color</label></div>
+      <div class="colori"><input type="color" name="color" id="color"></div>
+      <div class="password"><label>
         Password
         <input type="password" name="password" >
-      </label>
+      </label></div>
+      <div class="passwordi"></div>
+      <div class="reset"><button type="reset">Reset</button></div>
+      <div class="submit"><button type="submit">Submit</button></div>
+    <div><input type="hidden" name="hidden" value="hi"></div>
     </div>
-    <button type="reset">Reset</button>
-    <button type="submit">Submit</button>
-  </form>
-  <!-- <script src="scripts.js"></script> -->
+  
 </body>
 </html>
