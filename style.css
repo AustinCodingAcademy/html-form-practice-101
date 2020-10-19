@@ -1,0 +1,86 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:.5fr 1fr;
+    grid-template-rows: repeat(20, 0.5fr);
+    gap: 20px,20px;
+    padding: 20px;
+    border:#692705;
+    border-style: solid;
+    background-color: #ffeee4;
+    color: #FF5700;
+    font-family: 'Architects Daughter', cursive;
+    grid-template-areas:
+      "Header Header"
+      "Name Nameinput"
+      "email emailinput"
+      "age agei"
+      "birth birthi"
+      "H2Favoritefood H2Favoritefood"
+      "bananna banannai"
+      "apple applei"
+      "H2gender H2gender"
+      "Male malei"
+      "female femalei"
+      "other otheri"
+      "h2eyecolor eyecolori"
+      "biography biographi"
+      "file filei"
+      "phone phonei"
+      "url urli"
+      "color colori"
+      "password passwordi"
+      "reset submit";
+     
+      
+  }
+  .Header { grid-area: Header; 
+            border:#692705;
+            border-style: solid;
+            text-align: center;
+            }
+            
+  .Name { grid-area: Name;}
+  .Nameinput { grid-area: Nameinput; }
+  .email { grid-area: email; }
+  .emailinput { grid-area: emailinput; }
+  .age { grid-area: age; }
+  .agei { grid-area: agei; }
+  .birth { grid-area: birth; }
+  .birthi { grid-area: birthi; }
+  .H2Favoritefood { grid-area: H2Favoritefood; 
+            border:#692705;
+            border-style: solid;}
+  .bananna { grid-area: bananna; }
+  .banannai { grid-area: banannai; }
+  .apple { grid-area: apple; }
+  .applei { grid-area: applei; }
+  .H2gender { grid-area: H2gender; 
+              border:#692705;
+              border-style: solid;}
+  .Male { grid-area: Male; }
+  .malei { grid-area: malei; }
+  .female { grid-area: female; }
+  .femalei { grid-area: femalei; }
+  .other { grid-area: other; }
+  .otheri { grid-area: otheri; }
+  .biography { grid-area: biography; }
+  .biographi { grid-area: biographi; }
+  .file { grid-area: file; }
+  .filei { grid-area: filei; }
+  .phone { grid-area: phone; }
+  .phonei { grid-area: phonei; }
+  .url { grid-area: url; }
+  .urli { grid-area: urli; }
+  .color { grid-area: color; }
+  .colori { grid-area: colori; }
+  .password { grid-area: password; }
+  .passwordi { grid-area: passwordi; }
+  .reset { grid-area: reset; }
+  .submit { grid-area: submit; }
+  .eyecolori { grid-area: eyecolori; }
+  .h2eyecolor { grid-area: h2eyecolor; }
+  input{color:#FF5700;
+        background-color:#ffeee4;
+  }
+  text{color: #FF5700;
+        background-color: #ffeee4;}
