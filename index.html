@@ -2,47 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
-    <form action="results.html" method="GET" enctype="multipart/form-data">
+<body> <header><h1>Contact Me</h1></header>
+    <form class="form" action="results.html" method="GET" enctype="multipart/form-data">
       <div>
-        <label for="name">Name</label>
+        <label for="name"><h3>Contact Me</h3></label>
         <input type="text" name="name" id="name" >
     </div>
     <div>
-      <label for="email">Email</label>
+      <label for="email"><h3>Email</h3></label>
       <input type="email" name="email" id="email" >
     </div>
     <div>
-      <label for="age">Age</label>
-      <input type="number" name="age" id="age" min="1" max="200" step="5">
-    </div>
-    <div>
-      <label for="date">Birthdate</label>
+      <label for="date"><h3>Birthdate</h3></label>
       <input type="date" name="date" id="date" min="2019-06-10">
     </div>
     <div>
-      Favorite Food
+      <h3>How Did You Hear About Me?</h3>
       <div>
-        <label for="banana">Banana</label>
-        <input type="checkbox" name="banana" id="banana">
+        <label for="Classmate">Classmate</label>
+        <input type="checkbox" name="Classmate" id="Classmate">
       </div>
       <div>
-        <label for="apple">Apple</label>
-        <input type="checkbox" name="apple" id="apple">
+        <label for="Facebook">Facebook</label>
+        <input type="checkbox" name="Facebook" id="Facebook">
+      </div><div>
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="checkbox" name="LinkedIn" id="LinkedIn">
+      </div>
+      <div>
+        <label for="Coding Academy Rec">Coding Academy Rec</label>
+        <input type="checkbox" name="Coding Academy Rec" id="Coding Academy Rec">
       </div>
     </div>
     <div>
-      Gender
+      <h3>Contact Me Back</h3>
       <div>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Yes</label>
+        <input type="radio" name="Yes" id="Yes" value="Yes">
       </div>
       <div>
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" value="female">
+        <label for="No">Female</label>
+        <input type="radio" name="No" id="No" value="">
       </div>
       <div>
         <label for="other">Other</label>
@@ -50,14 +54,7 @@
       </div>
     </div>
     <div>
-      <label for="eyeColor">Eye Color</label>
-      <select name="eyeColor" id="eyeColor" multiple>
-        <option value="Green">Green</option>
-        <option label="Red" value="Red"></option>
-      </select>
-    </div>
-    <div>
-      <label for="bio">Bio</label>
+      <label for="bio"><h3>Message</h3></label>
       <textarea id="bio" name="bio"></textarea>
     </div>
     <input type="hidden" name="hidden" value="hi">
@@ -66,25 +63,17 @@
       <input id="file" type="file" name="file">
     </div>
     <div>
-      <label for="phone">Phone</label>
+      <label for="phone"><h3>Phone</h3></label>
       <input type="tel" name="phone" id="phone">
     </div>
     <div>
-      <label for="url">URL</label>
-      <input type="url" name="url" id="url">
-    </div>
-    <div>
-      <label for="color">Color</label>
-      <input type="color" name="color" id="color">
-    </div>
-    <div>
       <label>
-        Password
+        <h3>Password</h3>
         <input type="password" name="password" >
       </label>
     </div>
-    <button type="reset">Reset</button>
-    <button type="submit">Submit</button>
+    <button class="button1" type="reset">Reset</button>
+    <button class="button2" type="submit">Submit</button>
   </form>
   <!-- <script src="scripts.js"></script> -->
 </body>
